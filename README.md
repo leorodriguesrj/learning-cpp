@@ -13,13 +13,13 @@ Sketches of code I use to learn a few things about C/C++ programming (on linux)
 
 ### Run GYP to prepare the makefiles
 
-``
+```bash
 gyp --depth=. --generator-output=output main.gyp
-``
+```
 
 ### Run the makefile
 
-``
+```bash
 make app1
 make app2
-``
+```
