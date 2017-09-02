@@ -20,6 +20,7 @@ gyp --depth=. --generator-output=output main.gyp
 ### Run the makefile
 
 ```bash
+cd output
 make app1
 make app2
 ```
