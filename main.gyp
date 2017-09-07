@@ -1,6 +1,9 @@
 {
     'variables': {
-
+        'cc': '$(CC)',
+        'cxx': '$(CXX)',
+        'ar': '$(AR)',
+        'link': '$(LINK)'
     },
     'target_defaults': {
 
