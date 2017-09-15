@@ -25,9 +25,16 @@
         },
         {
             'target_name': 'libconsole',
-            'type': 'static_library',
+            'type': 'shared_library',
             'sources': [
                 'src/console.c'
+            ]
+        },
+        {
+            'target_name': 'libsomefuncs',
+            'type': 'shared_library',
+            'sources': [
+                'src/somefuncs.cpp'
             ]
         },
         # {

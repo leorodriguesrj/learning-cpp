@@ -1,0 +1,45 @@
+
+c:\desenvolvimento\tools\android-toolchain\bin\arm-linux-androideabi-clang++.cmd
+-Dnative_spark_EXPORTS
+-I../../../../src/main/jniLibs/armeabi-v7a/include/node
+-I../../../../src/main/jniLibs/armeabi-v7a/include/cares
+-I../../../../src/main/jniLibs/armeabi-v7a/include/v8
+-I../../../../src/main/jniLibs/armeabi-v7a/include/http_parser
+-std=gnu++0x -frtti -fexceptions -g -fPIC -MD
+-MT CMakeFiles/native-spark.dir/src/main/cpp/spark_utils.cpp.o
+-MF CMakeFiles\native-spark.dir\src\main\cpp\spark_utils.cpp.o.d
+-o CMakeFiles/native-spark.dir/src/main/cpp/spark_utils.cpp.o
+-c C:\desenvolvimento\spark\app\src\main\cpp\spark_utils.cpp
+
+c:\desenvolvimento\tools\android-toolchain\bin\arm-linux-androideabi-clang++.cmd
+-Dnative_spark_EXPORTS
+-I../../../../src/main/jniLibs/armeabi-v7a/include/node
+-I../../../../src/main/jniLibs/armeabi-v7a/include/cares
+-I../../../../src/main/jniLibs/armeabi-v7a/include/v8
+-I../../../../src/main/jniLibs/armeabi-v7a/include/http_parser
+-std=gnu++0x -frtti -fexceptions -g -fPIC -MD
+-MT CMakeFiles/native-spark.dir/src/main/cpp/npm_facade.cpp.o
+-MF CMakeFiles\native-spark.dir\src\main\cpp\npm_facade.cpp.o.d
+-o CMakeFiles/native-spark.dir/src/main/cpp/npm_facade.cpp.o
+-c C:\desenvolvimento\spark\app\src\main\cpp\npm_facade.cpp
+
+c:\desenvolvimento\tools\android-toolchain\bin\arm-linux-androideabi-clang++.cmd
+-Dnative_spark_EXPORTS
+-I../../../../src/main/jniLibs/armeabi-v7a/include/node
+-I../../../../src/main/jniLibs/armeabi-v7a/include/cares
+-I../../../../src/main/jniLibs/armeabi-v7a/include/v8
+-I../../../../src/main/jniLibs/armeabi-v7a/include/http_parser
+-std=gnu++0x -frtti -fexceptions -g -fPIC -MD
+-MT CMakeFiles/native-spark.dir/src/main/cpp/file_system_facade.cpp.o
+-MF CMakeFiles\native-spark.dir\src\main\cpp\file_system_facade.cpp.o.d
+-o CMakeFiles/native-spark.dir/src/main/cpp/file_system_facade.cpp.o
+-c C:\desenvolvimento\spark\app\src\main\cpp\file_system_facade.cpp
+
+c:\desenvolvimento\tools\android-toolchain\bin\arm-linux-androideabi-clang++.cmd
+-fPIC -std=gnu++0x -frtti -fexceptions -g  -rdynamic -fPIC -march=armv7-a -fPIE -shared -Wl,-soname,libnative-spark.so
+-o ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-spark.so
+CMakeFiles/native-spark.dir/src/main/cpp/spark_utils.cpp.o
+CMakeFiles/native-spark.dir/src/main/cpp/file_system_facade.cpp.o
+CMakeFiles/native-spark.dir/src/main/cpp/npm_facade.cpp.o
+-LC:/desenvolvimento/spark/app/src/main/jniLibs/armeabi-v7a
+-landroid -lnode -llog
